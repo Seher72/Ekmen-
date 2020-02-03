@@ -1,4 +1,4 @@
-public class Deneme {
+public class Main {
 
     public static int x = 0;
 
@@ -6,13 +6,13 @@ public class Deneme {
         x = 1;
     }
 
-    public Deneme() {
+    public Main() {
         x = x++;
     }
 
     public static void main(String[] args) {
-        Deneme x1 = new Deneme();
-        Deneme x2 = new Deneme();
+        Main x1 = new Main();
+        Main x2 = new Main();
 
         System.out.println("x1= " + x1.x);
         System.out.println("x2= " + x2.x);
